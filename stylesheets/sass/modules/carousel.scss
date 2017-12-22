@@ -1,0 +1,32 @@
+%static_car {
+    height: 370px;
+    width: auto;
+    overflow: hidden;
+}
+
+.front-caro {
+
+    .carousel-inner { @extend %static_car; }
+    .carousel-item { @extend %static_car; }
+
+    .carousel-item {
+        img { filter: contrast(40%); }
+    }
+
+}
+
+.teacher_caro {
+    .carousel-inner { 
+        height: 370px; 
+        @extend %static_car; 
+    }
+    .carousel-item { 
+        height: 370px;
+        @extend %static_car; 
+    }
+}
+
+
+.carousel-caption p {
+    font-size: 1rem;
+}

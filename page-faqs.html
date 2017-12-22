@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wordpress Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="stylesheets/css/main.css">
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <!-- BODY FONTS -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Oxygen|Roboto" rel="stylesheet"> -->
+    <!-- NAVBRAND FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Share" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script> 
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navi-primary">
+        <div class="container pl-0 pr-0">
+            <a href="<?php echo home_url(); ?>" style="font-family: share;" class="navbar-brand"><img src="/assets/images/book-icon.svg" width="30" height="30" alt=""> <b style="mix-blend-mode: exclusion">SpeakIn</b></a>
+            <button class="navbar-toggler bg-danger" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> 
+            <div class="collapse navbar-collapse pl-0 ml-0" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto ml-0" id="theNav" style="font-size: 0.8rem;">
+                    <li class="nav-item pr-3"><a href="" class="pl-0 nav-link">Home</a></li>
+                    <li class="nav-item pr-3"><a href="/page-classes.html/" class="nav-link">Classes</a></li>
+                    <li class="nav-item pr-3"><a href="/page-test.html/" class="nav-link">Level test</a></li>
+                    <li class="nav-item pr-3"><a href="/page-careers.html/" class="nav-link">Careers</a></li>
+                    <li class="nav-item pr-0"><a href="/page-aboutus.html/" class="nav-link">About Us</a></li>
+                    <!-- <li class="nav-item pr-0"><a href="" class="nav-link"><i class="fa fa-bars"><.htmlpage-/i></a></li> -->
+                </ul>
+
+                <form class="form-inline">
+                    <div class="input-group border-0">
+                        <input class="form-control rounded-0 border-0 ml-5 pt-1 pb-1" style="width: 9.4rem" placeholder="Search">
+                        <button class="input-group-addon" id="basic-addon rounded-0 border-0"><i class="fa fa-search"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+
+            <div class="card card-bgc-secondary rounded-0 m-login mb-3">
+                <div class="list-group list-group-flush about-links">
+                    <a class="list-group-item list-link rounded-0" href="<?php echo home_url(); ?>/aboutus/"><i class="fa fa-angle-right"></i> Back to About Us</a>
+                    <a class="list-group-item list-link rounded-0" href="<?php echo home_url(); ?>/faqs/"><i class="fa fa-angle-right"></i> FAQS</a>
+                    <a class="list-group-item list-link rounded-0" href="<?php echo home_url(); ?>/careers/"><i class="fa fa-angle-right"></i> Careers</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-9 main p-3 pl-4">
+            <h3 class="mt-3 mb-0 pb-2"><b>Welcome to our FAQS Page</b></h3>
+            <p class="mb-4 pb-4">We have listed lots of useful information to help you get more from our website.</p>
+
+            <h4 class="text-dark"><a name="who">Exams and qualifications</a></h4>
+            <hr>
+            <p class="lead pb-4 pr-5 text-secondary">We have a range of English language exams and teaching qualifications. If you’re not sure which exam is right for you, use our free online test to help you find out.</p>
+
+            <h5 class="text-dark"><a name="mission">Booking your exam</a></h5>
+            <hr>
+            <p class="lead pb-4 pr-5 text-secondary">To register for an exam you will need to contact one of our authorised test centres. You can search from more than 2,800 exam centres around the world.</p>
+
+            <h5 class="text-dark"><a name="weDo">Getting ready for your exam</a></h5>
+            <hr>
+            <p class="lead pb-4 pr-5 text-secondary">We have lots of useful information and free support to help you get ready for your exam.</p>
+            <ul class="text-secondary">  
+                <li>Exam preperation</li>
+                <li>Free Practice Activities</li>
+                <li>Information for parents</li>
+            </ul>
+
+            <h5 class="text-dark"><a name="network">Your results and exam experience</a></h5>
+            <hr>
+            <p class="lead pb-5 pr-5 text-secondary">You can receive or view your progress in your view profile page. One's you finished
+            a course your personal teacher will tell you your test/exam results.</p>
+            
+            <h5 class="text-dark"><a name="offices">Still have a question?</a></h5>
+            <hr>
+            <p class="lead pr-5 pb-3 text-secondary">Our helpdesk team have lots of experience helping customers around the world and can help you get your query solved as quickly as possible. This is all part of our customer promise. <br><br>
+
+            If you still haven’t found an answer to your question, we have lots of useful articles which cover the questions we get asked the most. If they don’t answer your questions, our helpdesk team are ready to help.</p>
+        </div>
+    </div>
+</div>
+<br><br>
+<footer class="bg-dark">
+
+  <div class="container">
+       <div class="row pt-5 pb-5">
+           <div class="col-md-12 text-secondary text-center">
+               <h3>About Us</h3>
+               <p style="width: 50%; margin: 0 auto;">We provide the world’s leading range of qualifications for learners and teachers of English. Our expertise, gathered over 100 years of language learning and assessment, has led us to working with educational institutions and local.</p>
+           </div>
+       </div>
+   </div> 
+   <div class="row  pr-0 mr-0">
+     <div class="col-md-12 "  style="border-bottom: 1px solid #555; border-top: 1px solid #555;">
+       <div class="container">
+        <ul class="nav end-nav justify-content-center">
+          <li class="nav-item"><a href="<?php echo home_url();?>" class="nav-link text-secondary">Home</a></li>
+          <li class="nav-item"><a href="<?php echo home_url(); ?>/classes/" class="nav-link text-secondary">Classes</a></li>
+          <li class="nav-item"><a href="<?php echo home_url(); ?>/test/" class="nav-link text-secondary">Level test</a></li>
+          <li class="nav-item"><a href="<?php echo home_url(); ?>/careers/" class="nav-link text-secondary">Careers</a></li>
+          <li class="nav-item"><a href="<?php echo home_url(); ?>/aboutus/" class="nav-link text-secondary">About Us</a></li>
+        </ul>
+        
+         </div>
+     </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12 text-center pt-2 pb-2 pr-0 mr-0">
+      <i class="fa fa-copyright text-secondary"><span style="font-family: Roboto"> - SpeakIn</span></i> 
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+<!-- Javascript -->
+
+</body>
+</html>

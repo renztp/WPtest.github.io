@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wordpress Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="stylesheets/css/main.css">
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <!-- BODY FONTS -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Oxygen|Roboto" rel="stylesheet"> -->
+    <!-- NAVBRAND FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Share" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script> 
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navi-primary">
+        <div class="container pl-0 pr-0">
+            <a href="<?php echo home_url(); ?>" style="font-family: share;" class="navbar-brand"><img src="/assets/images/book-icon.svg" width="30" height="30" alt=""> <b style="mix-blend-mode: exclusion">SpeakIn</b></a>
+            <button class="navbar-toggler bg-danger" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> 
+            <div class="collapse navbar-collapse pl-0 ml-0" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto ml-0" id="theNav" style="font-size: 0.8rem;">
+                    <li class="nav-item pr-3"><a href="" class="pl-0 nav-link">Home</a></li>
+                    <li class="nav-item pr-3"><a href="/page-classes.html/" class="nav-link">Classes</a></li>
+                    <li class="nav-item pr-3"><a href="/page-test.html/" class="nav-link">Level test</a></li>
+                    <li class="nav-item pr-3"><a href="/page-careers.html/" class="nav-link">Careers</a></li>
+                    <li class="nav-item pr-0"><a href="/page-aboutus.html/" class="nav-link">About Us</a></li>
+                    <!-- <li class="nav-item pr-0"><a href="" class="nav-link"><i class="fa fa-bars"><.htmlpage-/i></a></li> -->
+                </ul>
+
+                <form class="form-inline">
+                    <div class="input-group border-0">
+                        <input class="form-control rounded-0 border-0 ml-5 pt-1 pb-1" style="width: 9.4rem" placeholder="Search">
+                        <button class="input-group-addon" id="basic-addon rounded-0 border-0"><i class="fa fa-search"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    
+    <br>
+    <div class="container">
+       <div class="row">
+           <div class="col-md-3">
+               <div class="card card-bgc-secondary rounded-0 m-login mb-3">
+                <!-- <div class="card-header pb-2 pt-2 rounded-0 pl-3"></div> -->
+                <div class="card-body p-3 pt-2 rounded-0">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="https://www.livelingua.com/img/profilesTeachers/228/Young-jun-Jung-IMG_000323.jpg" class="rounded-circle" width="180%" alt="">
+                        </div>
+                        <div class="col-md-9">
+                            <h5 class="pl-3">Heon Woo jung</h5>
+                            <a href=" <?php echo home_url(); ?>/profile/" class="btn butt-bg rounded-0 ml-3 text-center">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-bgc-secondary rounded-0 m-login mb-3">
+                <!-- <div class="card-header pb-2 pt-2 rounded-0 pl-3"></div> -->
+                <div class="card-header m-login rounded-0">Personal Todo-list</div>
+                <div class="list-group list-group-flush">
+                    <div class="list-group-item list-g-compo rounded-0"><b>Review on Present Tenses</b>
+</b>
+</b>
+</b><span class="pull-right"><i class="fa fa-check"></i> <i class="fa fa-close pl-2"></i></span></div>
+                    <div class="list-group-item list-g-compo rounded-0"><b>Practice more on Grammar</b>
+</b>
+</b>
+</b><span class="pull-right"><i class="fa fa-check"></i> <i class="fa fa-close pl-2"></i></span></div>
+                    <div class="list-group-item list-g-compo rounded-0"><b>Review on Future Tenses</b>
+</b>
+</b>
+</b><span class="pull-right"><i class="fa fa-check"></i> <i class="fa fa-close pl-2"></i></span></div>
+                    <div class="list-group-item list-g-compo rounded-0"><b>Review on Upcoming Exa</b>
+</b>
+</b>
+</b><span class="pull-right"><i class="fa fa-check"></i> <i class="fa fa-close pl-2"></i></span></div>
+                    <div class="list-group-item list-g-compo rounded-0 text-center" style="cursor: pointer;"><i class="fa fa-plus"></i></div>
+                </div>
+            </div>
+            <div class="card card-bgc-secondary rounded-0 m-login mb-3">
+                <div class="list-group list-group-flush about-links">
+                    <a class="list-group-item list-g-compo rounded-0 list-link" href="<?php echo home_url(); ?>/faqs/"><i class="fa fa-angle-right"></i> FAQS</a></div>
+                </div>
+        </div>
+
+
+
+         <div class="col-md-9 main">
+            <div class="row">
+                <div class="col-md-12 pl-5 pr-5 pt-5 pb-5">
+                    <h3 class="text-center">Class Schedule</h3>
+                    <div class="card card-bgc-secondary">
+                        <div class="card-header text-center rounded-0"><b>Today</b></div>
+                        <div class="list-group list-group-flush">
+                            <div class="list-group-item list-g-compo rounded-0 p-0">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <h6 class="p-3 m-0">English 4</h6>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <h6 class="p-3 m-0 text-center">Verbs, Adverbs Noun <span class="card-msg">With Teacher Tannia</span></h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-group-item list-g-compo rounded-0 p-0">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <h6 class="p-3 m-0">English 4</h6>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <h6 class="p-3 m-0 text-center">Past, Future Tenses <span class="card-msg">With Teacher Yani</span></h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-group-item list-g-compo rounded-0 p-0">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <h6 class="p-3 m-0">Exam</h6>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <h6 class="p-3 m-0 text-center">Past, Future Tenses 2 <span class="card-msg">With Teacher Yani</span></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="card card-bgc-secondary">
+                        <div class="card-header text-center rounded-0"><b>Tommorow</b></div>
+                        <div class="list-group list-group-flush">
+                            <div class="list-group-item list-g-compo rounded-0 p-0">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <h6 class="p-3 m-0">English 4</h6>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <h6 class="p-3 m-0 text-center">Comparison of Quantity - menu <span class="card-msg">With Teacher Tannia</span></h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-group-item list-g-compo rounded-0 p-0">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <h6 class="p-3 m-0">English 4</h6>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <h6 class="p-3 m-0 text-center">Comparison of Quantity - showing difference <span class="card-msg">With Teacher Rica</span></h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-group-item list-g-compo rounded-0 p-0">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <h6 class="p-3 m-0">Exam</h6>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <h6 class="p-3 m-0 text-center">Comparison of Quantity - showing no difference <span class="card-msg">With Teacher Rica</span></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="card card-bgc-secondary">
+                        <div class="card-header text-center rounded-0"><b>Wednesday</b></div>
+                        <div class="list-group list-group-flush">
+                            <div class="list-group-item list-g-compo rounded-0 p-0">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <h6 class="p-3 m-0">English 4</h6>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <h6 class="p-3 m-0 text-center">Pitstop Grammar <span class="card-msg">With Teacher Tannia</span></h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-group-item list-g-compo rounded-0 p-0">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <h6 class="p-3 m-0">English 4</h6>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <h6 class="p-3 m-0 text-center">Pitstop Grammar 2 <span class="card-msg">With Teacher Tannia</span></h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-group-item list-g-compo rounded-0 p-0">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <h6 class="p-3 m-0">Exam</h6>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <h6 class="p-3 m-0 text-center">Grammar Practice <span class="card-msg">With Teacher Rica</span></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+     </div>
+ </div>
+ <br>
+ <footer class="bg-dark">
+
+  <div class="container">
+       <div class="row pt-5 pb-5">
+           <div class="col-md-12 text-secondary text-center">
+               <h3>About Us</h3>
+               <p style="width: 50%; margin: 0 auto;">We provide the world’s leading range of qualifications for learners and teachers of English. Our expertise, gathered over 100 years of language learning and assessment, has led us to working with educational institutions and local.</p>
+           </div>
+       </div>
+   </div> 
+   <div class="row  pr-0 mr-0">
+     <div class="col-md-12 "  style="border-bottom: 1px solid #555; border-top: 1px solid #555;">
+       <div class="container">
+        <ul class="nav end-nav justify-content-center">
+          <li class="nav-item"><a href="<?php echo home_url();?>" class="nav-link text-secondary">Home</a></li>
+          <li class="nav-item"><a href="<?php echo home_url(); ?>/classes/" class="nav-link text-secondary">Classes</a></li>
+          <li class="nav-item"><a href="<?php echo home_url(); ?>/test/" class="nav-link text-secondary">Level test</a></li>
+          <li class="nav-item"><a href="<?php echo home_url(); ?>/careers/" class="nav-link text-secondary">Careers</a></li>
+          <li class="nav-item"><a href="<?php echo home_url(); ?>/aboutus/" class="nav-link text-secondary">About Us</a></li>
+        </ul>
+        
+         </div>
+     </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12 text-center pt-2 pb-2 pr-0 mr-0">
+      <i class="fa fa-copyright text-secondary"><span style="font-family: Roboto"> - SpeakIn</span></i> 
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+<!-- Javascript -->
+
+</body>
+</html>
